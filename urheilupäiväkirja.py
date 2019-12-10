@@ -1,4 +1,5 @@
 import diary
+import running
 
 # Yksinkertainen alkusivu
 # numeroa 1-3 syötetään ja se vie sivuille if-lauseella,
@@ -20,6 +21,6 @@ def main():
         if number == 2:
             diary.diary()
         if number == 3:
-            print("running.running()")
+            running.running()
     print(number)
 main()
